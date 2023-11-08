@@ -26,7 +26,7 @@ def download_image():
         data_collection=DataCollection.SENTINEL2_L1C,
         layer='TRUE-COLOR-S2L2A',
         bbox=betsiboka_bbox,
-        time='2017-12-15',
+        time='latest',
         width=512,
         height=856,
         config=config
